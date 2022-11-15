@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<title>Assignment 4</title>
+<link rel="stylesheet"href="mawra.css">
+
+</head>
+<body>
+    
+<style> 
+     
+ body{ 
+ background-image:url('4a5c6dad02c1e3a96dd34e1fe18a2fd4.jpg' );
+   }    
+</style>	
+
+ <h1> Aptech Registration Form</h1>
+ 
+ <form>
+
+First  Name: <input type="text" reauired = "true" id="name"placeholder="Enter your  First   Name"/><br>
+
+Middle Name: <input type="text" required = "true" id="name" placeholder="Enter your  Middle  Name"/><br>
+
+Last   Name: <input type="text" required =  "true" id="name" placeholder="Enter your  Last   Name"/><br>
+
+Father Name: <input type="text" required =   "true" id="name"placeholder ="Enter your Father Name"/><br>
+
+CNIC :      <input type ="text" required =   "true" id = "CNIC" placeholder ="Enter your CNIC"/><br>
+
+DOB  :   <input type = "date"     required = "true" id = "DOB"/> <input type ="time" required ="true"id ="DOB"name= ""><br>
+
+Select Gender:
+
+<br><input type ="radio" name ="gender"> <label> Male  </label>
+<br><input type ="radio" name ="gender"> <label> Female </label>
+<br><input type ="radio" name ="gender"> <label> Others </label></br><br> 
+
+
+Email: <input type="email"id="email" placeholder ="Enter your Email"/><br>
+
+Mobile No : <input type ="text" required ="true"id ="mobileno" maxlength = "11" placeholder ="Enter your Mobile No"/><br>
+
+<label>Select the semester:</label>
+
+<input type ="text" id="semester"list="semester"/>
+<datalist id ="semester">
+<option value ="CPISM" >
+<option value = "DISM">
+<option value =  "HDSE">
+</datalist> 	
+<br>
+
+Select your Courses: <br>
+
+<input type = "checkbox"> <label> MS Office </label> <br>
+<input type = "checkbox"> <label> DMW </label> <br>
+<input type = "checkbox"> <label> C#  </label>  <br>
+
+Enter your Postal Address:<br><textarea id="Address" rows="3"> </textarea></br>
+
+<input type ="submit"id="submit" value = "submit">
+
+</form>
+</body>
+</html>
